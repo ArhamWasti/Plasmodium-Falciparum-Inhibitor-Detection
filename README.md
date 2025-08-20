@@ -18,7 +18,7 @@ Once a PDB is received from ESMFold, it is parsed to create an RDKit molecule ob
 ## Results
 With an array of choices concerning molecular models and featurizers, selecting the correct model is a make-or-break decision. Area Under Curve (AUC) scores were used to evaluate the model throughout the training process, with an 80-10-10 split due to the limited dataset size. The initial use of ProgressiveMultiTask with BindingPocketFeaturizer struggled to achieve generalization accuracy and did not show valuable learning potential. Switching to GCN pre-trained on molecular structures, I was able to leverage computed graph representations of PDBs with a model that could spatially comprehend the patterns and features indicative of inhibitor presence.
 
-![Protein Structure Labels](https://raw.githubusercontent.com/ArhamWasti/Plasmodium-Falciparum-Inhibitor-Detection/main/Protein%20Structure%20Labels.svg?token=GHSAT0AAAAAACSZFUEVLF5RYUJZSPIM5MXEZT6QCGQ)
+![Protein Structure Labels](https://github.com/ArhamWasti/Plasmodium-Falciparum-Inhibitor-Detection/blob/main/Protein%20Structure%20Labels.svg)
 
 ## Run Instructions
 
