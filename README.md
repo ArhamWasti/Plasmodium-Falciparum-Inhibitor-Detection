@@ -30,6 +30,3 @@ pip install -r requirements.txt
 
 ## Dataset
 https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/A21A7R 
-
-## License
-This research is shared under the Creative Commons license.
