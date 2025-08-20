@@ -7,7 +7,7 @@ Machine learning models hold the capability to make innovative discoveries in he
 
 My proposed framework which proved to stand effective is composed of two distinct components, an ESMFold model that uses an input amino acid sequence to predict a 3D protein structure and generate a format representing the sequence, as well as a custom fine-tuned graph convolutional network (GCN) that leverages convolutional molecular features to spatially and contextually understand my custom P. falciparum dataset.
 
-![Pipeline Flow Diagram](https://raw.githubusercontent.com/ArhamWasti/Plasmodium-Falciparum-Inhibitor-Detection/main/Pipeline%20Flow%20Diagram.svg?token=GHSAT0AAAAAACSZFUEU5WHVW6R2WD36BXRKZT6QDEQ)
+![Pipeline Flow Diagram](https://github.com/ArhamWasti/Plasmodium-Falciparum-Inhibitor-Detection/blob/main/Pipeline%20Flow%20Diagram.svg)
 
 #### AminoAcid to PDB: 
 This component relies upon the revolutionary capabilities of Meta’s ESMFold model. This model allows us to input a string containing a sequence of amino acids in single-letter code, and receive a predicted three-dimensional structure of the protein. This prediction is outputted in a PDB format, which can be used to visualize the structure with precision in molecular visualization tools. 
